@@ -150,7 +150,8 @@ export default function Sign() {
             <p>{formErrors.tel}</p>
             <div className="mb-3">
               {/*Email*/}
-
+              <p>Hi How are you</p>
+              <p>Hows you?</p>
               <input
                 type="text"
                 id="email"
