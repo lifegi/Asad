@@ -10,7 +10,8 @@
 
 # production
 /build
-
+# node-waf configuration
+.lock-wscript
 # misc
 .DS_Store
 .env.local
@@ -21,4 +22,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/node_modules
+node_modules/
