@@ -1,0 +1,223 @@
+body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 1;
+}
+/*Sign in*/
+.main3 {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+}
+#p {
+  color: aliceblue;
+}
+#h1 {
+  text-align: center;
+  position: relative;
+}
+#submain3 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 300px;
+  /*box-shadow:2px 2px 2px 3px rgb(207, 207, 207) ;*/
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 70px;
+}
+#button {
+  border-radius: 20px;
+  justify-content: center;
+
+  width: 100%;
+}
+#Link {
+  justify-content: center;
+  text-decoration: none;
+  color: #454545;
+  font-size: 13px;
+  position: relative;
+  left: 40px;
+}
+#sign {
+  color: #454545;
+  font-size: 13px;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  background: transparent;
+  padding: 10px;
+
+  outline: none;
+}
+
+#password {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  outline: none;
+  padding: 10px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+p {
+  color: red;
+}
+label {
+  position: absolute;
+
+  padding: 10px 0;
+  font-size: 16;
+  color: #454545;
+  transition: 0.5s;
+}
+input:focus ~ label,
+input:focus ~ label {
+  top: -20px;
+  left: 0;
+  color: blue;
+  font-size: 12px;
+}
+/*Forgot password*/
+#main1 {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+}
+#submain1 {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  width: 350px;
+  /*box-shadow:2px 2px 2px 3px rgb(207, 207, 207) ;*/
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 100px;
+}
+#h2 {
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+}
+#email {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  padding: 10px;
+  letter-spacing: 1px;
+  outline: none;
+}
+/*Registration*/
+.main2 {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+}
+#p {
+  color: aliceblue;
+}
+#submain2 {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  width: 300px;
+  /*box-shadow:2px 2px 2px 3px rgb(207, 207, 207) ;*/
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 20px;
+}
+#sign2 {
+  color: #454545;
+  font-size: 13px;
+  position: relative;
+  left: 30px;
+}
+
+/*Confirm password*/
+.main4 {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0 90px 0;
+}
+#submain4 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 300px;
+  /*box-shadow:2px 2px 2px 3px rgb(207, 207, 207) ;*/
+  padding-top: 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 70px;
+}
+#btn {
+  border-radius: 20px;
+  justify-content: center;
+
+  width: 100%;
+}
+.h1 {
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+}
+.p {
+  font-size: 1.4rem;
+  margin: 1rem 0 2.4rem 0;
+  line-height: 1.8rem;
+  color: black;
+  font-weight: 400;
+  font-family: "Source Serif Pro", serif;
+}
+
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: gray;
+}
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+}
+#img {
+  height: 50px;
+  justify-content: center;
+  position: relative;
+  left: 95px;
+}
+#btn1 {
+  border-radius: 10px;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  outline: none;
+}
